@@ -4,8 +4,8 @@ const router = express.Router();
 
 router.get('/', (req,res)=>{
     res.json({
-        nombre: "Pedro",
-        apellido: "Perez",
+        nombre: "Pablo",
+        apellido: "Ibarra",
         edad: 30
     });
 })
