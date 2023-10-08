@@ -6,7 +6,7 @@ router.get('/', (req,res)=>{
     res.json({
         nombre: "Pablo",
         apellido: "Ibarra",
-        edad: 30
+        edad: 26
     });
 })
 
